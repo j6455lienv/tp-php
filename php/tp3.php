@@ -12,11 +12,11 @@
     
 //var_dump($tab);
  foreach ($tab as $v1) {
-    echo "<tr>";
+    ?> <tr> <?php
     foreach ($v1 as $v2) {
-        echo "<td>$v2</td>";
+        echo '<td>' . $v2 . '</td>';
     }
-    echo "</tr>";
+    ?> </tr> <?php
 }
 
 ?>

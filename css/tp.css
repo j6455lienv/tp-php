@@ -1,0 +1,31 @@
+.tp2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.table {
+    margin: 2em 3% 2em 3%;
+}
+
+p {
+    margin: 0;
+}
+
+/* tp3 */
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    /*font-weight: bold;*/
+}

@@ -1,7 +1,7 @@
-    <!--tp1 - afficher la table * de 7 
+<!--tp1 - afficher la table * de 7 
     modification du commentaire pour nouveau commit pour test du pull-->
-    <h2>tp1 - afficher la table * de 7</h2>
-    
+<h2>tp1 - afficher la table * de 7</h2>
+
 <?php
     
     $valeurTable = 7;//initiation de la variable valeur de la table 
@@ -14,12 +14,11 @@
     <!--tp2 - afficher toutes les tables de * de 1 a 10-->
     <h2>tp2 - afficher toutes les tables de * de 1 a 10</h2>
     <div class="tp2">
-<?php
+        <?php
     $tableau = [];
 
     for ($operandeTable = 0 ; $operandeTable <=10; $operandeTable++) 
     { 
-        
         echo ("<div class='table'><h3>Table de $operandeTable</h3>");
         for ($operande=0 ; $operande <=10 ; $operande++){
             $result = $operande * $operandeTable;

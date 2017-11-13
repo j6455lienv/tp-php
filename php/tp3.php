@@ -9,9 +9,8 @@
             $tab[$operandeTable][$operande] = $operande * $operandeTable;
         }
     }
-
+    
 //var_dump($tab);
-
  foreach ($tab as $v1) {
     echo "<tr>";
     foreach ($v1 as $v2) {

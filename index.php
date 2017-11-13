@@ -6,7 +6,6 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>PHP-tp</title>
@@ -16,49 +15,30 @@
 <body>
     <h1>PHP - TP</h1>
     <?php include 'php/tp1-tp2.php'; ?>
-
+    
+    <div class="tp3">
     <table>
         <tbody class="conteneur">
             <?php include 'php/tp3.php'; ?>
         </tbody>
     </table>
-
-    <form name="nouvo" id="nouvo" action="nouvo.php" method="POST">
-
+    </div>
+    
+    <div class="tp4">
+        
+    <h2>tp4- formulaire de contact</h2>
+    <form name="form-contact" id="form-contact" action="form-contact.php" method="POST">
         <table border="0" cellspacing="0" cellpadding="0" id="formulair" align="center">
-
-            <tr>
-                <td>Tous les champs sont obligatoires.</td>
-            </tr>
-
-            <tr>
-                <td height="10"></td>
-            </tr>
-
-            <tr>
-                <td align="left">Pseudo : <input type="text" maxlength="20" size="20" name="pseudo" id="pseudo"></td>
-            </tr>
-
-            <tr>
-                <td align="left">Password : <input type="password" maxlength="20" size="15" name="pass" id="pass"></td>
-            </tr>
-
-            <tr>
-                <td align="left">Mail : <input type="text" maxlength="120" size="20" name="email" id="email"></td>
-            </tr>
-
-            <tr>
-                <td height="10"></td>
-            </tr>
-
-            <tr>
-                <td align="center"><input type="submit" value="Envoyer"></td>
-            </tr>
-
+            <tr><td height="10"></td></tr>
+            <tr><td align="left">Pseudo : <input type="text" maxlength="20" size="20" name="pseudo" id="pseudo"></td></tr>
+            <tr><td align="left">Password : <input type="password" maxlength="20" size="15" name="pass" id="pass"></td></tr>
+            <tr><td align="left">Mail : <input type="text" maxlength="120" size="20" name="email" id="email"></td></tr>
+            <tr><td height="10"></td></tr>
+            <tr><td><input type="submit" value="Envoyer"></td></tr>
         </table>
-
     </form>
+        
+    </div>
 
 </body>
-
 </html>

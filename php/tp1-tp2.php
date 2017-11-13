@@ -1,4 +1,5 @@
-    <!--tp1 - afficher la table * de 7 -->
+    <!--tp1 - afficher la table * de 7 
+    modification du commentaire pour nouveau commit pour test du pull-->
     <h2>tp1 - afficher la table * de 7</h2>
     
 <?php

@@ -26,9 +26,7 @@
     </div>
 
     <div class="tp4">
-
         <h2>tp4- formulaire de contact</h2>
-
         <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <label for="name">Your name:</label><br />
@@ -44,9 +42,7 @@
             </div>
             <input id="submit_button" type="submit" value="Send email" />
         </form>
-        
     </div>
-
 </body>
 
 </html>
